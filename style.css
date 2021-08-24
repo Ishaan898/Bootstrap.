@@ -55,7 +55,7 @@ input
 
 .my_nav_bar{
     position: sticky;
-    margin-top: 0px;
+    top:0;
     z-index: 99999;
     
 }
