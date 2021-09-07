@@ -1,151 +1,187 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    <title>Sir Tim Berners-Lee</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <nav class="navbar-inverse my_nav_bar">
-        <div class="navbar-headar">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-                <span class="icon-bar">
-                </span>
-                <span class="icon-bar">
-                </span>
-                <span class="icon-bar">
-                </span>
-            </button>
+	<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
 
-            <a class="navbar-brand" href="#">
-                Ishaan
-            </a>
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Ishaan</a>
+		</div>
 
-        </div>
-        <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#welcome">HOME</a></li>
-                <li><a href="#videos">VIDEOS</a></li>
-                <li><a href="#work">WORK</a></li>
-                <li><a href="#writings">WRITINGS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#home">TRAVEL</a></li>
+				<li><a href="#videos">MOVIES</a></li>
+				<li><a href="#work">ENVIRONMENT</a></li>
+				<li><a href="#writing">BOOKS</a></li>
+				<li><a href="#blog">ABOUT ME</a></li>
+			</ul>
+		</div>
 
-            </ul>
+	</nav>
 
-        </div>
+	<div class="container">
+		<div class="page-header" id="travel">
+			<h2 class="text-capitalize"> Places You Must Visit </h2>
 
+		</div>
+		<center>
+			<div class="travel_maindiv">
+				<img class="img-responsive" src="https://th.bing.com/th/id/R.f176b42e1b4b8164b795c4ede7d90ae7?rik=nJ5ieTRNjtAlgg&riu=http%3a%2f%2ftravellingmoods.com%2fwp-content%2fuploads%2f2015%2f05%2foverview_at_Universal_Studios_Singapore.jpg&ehk=w%2b1tQpIGqXchIDjz6o8SwR%2fpSZV%2fJdU%2fxxanzxyzVMA%3d&risl=&pid=ImgRaw&r=0">
+				<h4> <kbd> Universal Studios </kbd> </h4>
+				<hr>
+				<h5 class="text-success text-left text-capitalize">
 
-    </nav>
-
-
-
-
-    <section id="welcome">
-        <img src="stbl.jpg" class="profile img-circle">
-        <h1>I Am
-            <br>
-            <span id="name">Tim Berners-Lee</span>
-        </h1>
-        <h2> I am the founder of www: World Wide Web</h2>
-    </section>
-
-
-    <section id="bio">
-        <h1>Hi!</h1>
-        <div class="line"></div>
-        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
-
-            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
-
-            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
-
-            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
-
-            The Web was first used for e-commerce in 1997.</p>
-    </section>
-
-    <hr>
-    <section id="videos">
-        <h1>Videos</h1>
-        <div class="line"></div>
-        <br>
-        <iframe src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500"> </iframe>
-        <br>
-        <br>
-
-        <iframe height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2"></iframe>
-    </section>
-
-    <hr>
-    <section id="work" style="width: 100%;">
-        <h1>WORK</h1>
-        <div class="line"></div>
-        <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
-
-    </section>
-
-    <hr>
-
-    <section id="writings">
-        <h1 style="f">WRITINGS</h1>
-        <div class="line"></div>
-        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
-        <br>
-        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
-    </section>
-    <hr>
-
-    <section id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
-
-
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 contact_1">
-            <a href="mailto:my@gmail.com?Subject=Hi">
-                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
-            </a>
-
-            <a href="#">
-                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
-            </a>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 contact_2">
-            <form>
-                <span> name:</span> &nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="name" required>
-                <br>
-                <br>
-                <br>
-                <span> comment:</span> &nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="text" name="comment" required>
-                <br>
-                <br>
-                <br>
-                <input type="submit" value="submit" class="btn btn-success">
+					I visted Universal Studios in 2018.
 
 
 
-            </form>
+				</h5>
+				<p class="text-muted text-left"> Universal Studios had rider for everyone and I mean it, for example if you a daring kind of person you have the rollercoster which is extremly fast and there is also a slower version of it is you are not as daring there is also a zoo and a water park and in the zoo you can hand feed animals like tiger and more.
+				</p>
 
-        </div>
+
+			</div>
+
+		</center>
+		<div class="page-header" id="movies">
+			<h2 class="text-capitalize"> My Review on the movies</h2>
 
 
-    </section>
+		</div>
+		<div class="bg-primary movie_head" data-toggle="collapse" data-target="#spiderman">
+			<span class="glyphicon glyphicon-film">
 
-</body></html>
+			</span>
+			Spider Man Far From Home <i class="fa fa-sort-desc"></i>
+		</div>
+
+		<div id="spiderman" class="collapse">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+				<img src="https://th.bing.com/th/id/OIP.KnVwkryZMPg4DerSP9xFBgHaEK?pid=ImgDet&rs=1" class="img-responsive img-thumbnail">
+
+
+
+
+			</div>
+
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+				<h5 class="text-success text-left text-capitalize">
+					Must Watch This Movie
+					<span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+
+
+				</h5>
+				<p> This is a really good movie but you need to watch the movies before it as if you don't and watch this movie without watching the others, the other will be spoiled, but other than that is a really good movie.</p>
+
+
+
+			</div>
+		</div>
+
+		<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="environment">
+
+			<h2 class="text-capitalize"> News About The Environment</h2>
+
+		</div>
+
+
+		<ul class="list-group">
+
+
+			<li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+
+
+				<h4>Then and now: Why deforestation is such a hot topic </h4>
+
+				<img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/9383/production/_115736773_hi064132541-1.jpg">
+
+				<p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"> In recent years, trees have become a well-trodden solution for policymakers grappling with the threat posed by climate change.
+
+					The ability of trees to sequester carbon is a very popular topic within the political arena. They are a well-known facet of the global carbon cycle, removing millions of tonnes of CO2 from the atmosphere each year.
+
+					Therefore, policies that promote and encourage the planting of hundreds of thousands of trees are billed as a vital part of the shift to sustainability, and a key part of the solutions-based approach to tackling the climate crisis facing the planet.</p>
+
+
+			</li>
+
+
+
+
+
+			<li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+
+
+				<h4>One in three trees face extinction in wild, says new report </h4>
+
+				<img class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/11CBD/production/_120339827_magnolia_sinostellata_credit_professor_shouzhou_zhang_fairylake_botanic_garden.jpg">
+
+				<p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+					At least 30% of the world's tree species face extinction in the wild, according to a new assessment.
+
+					They range from well-known oaks and magnolias to tropical timber trees.
+
+					Experts say 17,500 tree species are at risk - twice the number of threatened mammals, birds, amphibians and reptiles combined.
+
+					Conservation groups are calling for urgent protection efforts amid threats such as deforestation, logging and climate change.
+
+					"We have nearly 60,000 tree species on the planet, and for the first time we now know which of these species are in need of conservation action, what are the greatest threats to them and where they are," said Dr Malin Rivers of the charity Botanic Gardens Conservation International in Kew, London.</p>
+
+
+			</li>
+
+
+
+		</ul>
+
+
+
+
+
+
+
+
+
+
+		<section id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+<hr>
+			<img class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" src="kid.jpeg">
+			<h3> Ishaan </h3>
+			<div class="contact_1">
+
+				<a href="mailto:ishaan.a@gmail.com?Subject=Hi">
+					<h5><i class="fa fa-envelope"></i>&nbsp;&nbsp; ishaan</h5>
+				</a>
+
+				
+			</div>
+		</section>
+	</div>
+
+</body>
+
+</html>
